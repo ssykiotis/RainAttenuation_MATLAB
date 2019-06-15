@@ -1,0 +1,2841 @@
+{
+  "nameDe" : "Berlin-Tempelhof",
+  "publicId" : "433",
+  "networkId" : "",
+  "location" : [ 13.4021, 52.4675 ],
+  "locationShape" : {
+    "type" : "Point",
+    "coordinates" : [ 13.4021, 52.4675 ]
+  },
+  "height" : 48.0,
+  "type" : "NKDZ_STATION",
+  "history" : [ {
+    "start" : "1970-09-10",
+    "location" : {
+      "type" : "Point",
+      "coordinates" : [ 13.402115, 52.467488 ]
+    },
+    "height" : 48.0,
+    "site" : "Die Station liegt am Südrand des ehemaligen Flughafens etwa 2,5 km südlich des Zentrums von Berlin inmitten der Bezirke Kreuzberg, Schöneberg, Tempelhof und Neukölln."
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "location" : {
+      "type" : "Point",
+      "coordinates" : [ 13.419056, 52.471899 ]
+    },
+    "height" : 48.0,
+    "site" : ""
+  }, {
+    "start" : "1952-05-01",
+    "end" : "1957-04-30",
+    "location" : {
+      "type" : "Point",
+      "coordinates" : [ 13.39136, 52.482997 ]
+    },
+    "height" : 48.0,
+    "site" : ""
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1952-04-30",
+    "location" : {
+      "type" : "Point",
+      "coordinates" : [ 13.39136, 52.482997 ]
+    },
+    "height" : 48.0,
+    "site" : ""
+  }, {
+    "start" : "1947-01-01",
+    "end" : "1951-02-28",
+    "location" : {
+      "type" : "Point",
+      "coordinates" : [ 13.38826, 52.481097 ]
+    },
+    "height" : 48.7,
+    "site" : ""
+  } ],
+  "instruments" : [ {
+    "start" : "2018-09-21",
+    "model" : "EE33",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2017-06-27",
+    "end" : "2018-09-20",
+    "model" : "EE33",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2016-03-10",
+    "end" : "2017-06-26",
+    "model" : "EE33",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2014-09-18",
+    "end" : "2016-03-10",
+    "model" : "EE33",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2013-03-13",
+    "end" : "2014-09-18",
+    "model" : "Feuchtesonde HMP45D",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2011-10-18",
+    "end" : "2013-03-13",
+    "model" : "Feuchtesonde HMP45D",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2009-08-11",
+    "end" : "2011-10-18",
+    "model" : "Feuchtesonde HMP45D",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-08-11",
+    "model" : "Feuchtesonde HMP45D",
+    "method" : "Feuchtemessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1995-04-11",
+    "end" : "1995-05-31",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1979-10-31",
+    "end" : "1995-04-10",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1979-10-23",
+    "end" : "1979-10-30",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1978-04-21",
+    "end" : "1979-10-22",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1976-07-09",
+    "end" : "1978-04-20",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1975-09-06",
+    "end" : "1976-07-08",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1972-09-02",
+    "end" : "1975-09-05",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1968-07-15",
+    "end" : "1972-09-01",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1969-06-01",
+    "end" : "1970-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1969-03-16",
+    "end" : "1969-05-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1969-01-04",
+    "end" : "1969-03-15",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1968-09-23",
+    "end" : "1969-01-03",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1968-03-02",
+    "end" : "1968-09-22",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1967-02-01",
+    "end" : "1968-07-14",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1968-02-05",
+    "end" : "1968-03-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1967-10-01",
+    "end" : "1968-02-05",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1967-05-21",
+    "end" : "1967-09-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1956-05-01",
+    "end" : "1967-09-09",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1967-02-11",
+    "end" : "1967-05-20",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1967-01-01",
+    "end" : "1967-02-10",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1966-12-01",
+    "end" : "1966-12-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1966-11-01",
+    "end" : "1966-11-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1966-07-05",
+    "end" : "1966-10-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1966-05-01",
+    "end" : "1966-07-04",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1964-02-22",
+    "end" : "1966-07-01",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1966-03-01",
+    "end" : "1966-04-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1966-02-01",
+    "end" : "1966-03-15",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1965-02-19",
+    "end" : "1966-01-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1965-01-07",
+    "end" : "1965-02-18",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1964-09-01",
+    "end" : "1965-01-06",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1964-05-05",
+    "end" : "1964-08-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1963-05-02",
+    "end" : "1964-05-31",
+    "model" : "Hygrometer",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1964-02-01",
+    "end" : "1964-05-04",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1963-01-12",
+    "end" : "1964-02-21",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1964-01-29",
+    "end" : "1964-01-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1963-10-14",
+    "end" : "1964-01-28",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1963-03-01",
+    "end" : "1963-10-13",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1960-06-01",
+    "end" : "1963-05-01",
+    "model" : "Hygrometer",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1963-01-02",
+    "end" : "1963-02-28",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1962-12-02",
+    "end" : "1963-01-11",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1962-11-01",
+    "end" : "1963-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1962-01-20",
+    "end" : "1962-12-01",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1962-09-01",
+    "end" : "1962-10-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1962-05-21",
+    "end" : "1962-08-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1961-12-01",
+    "end" : "1962-05-20",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1959-06-01",
+    "end" : "1962-01-19",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1961-06-11",
+    "end" : "1961-11-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1961-04-01",
+    "end" : "1961-06-10",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1961-03-14",
+    "end" : "1961-03-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1961-02-01",
+    "end" : "1961-03-13",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1960-01-02",
+    "end" : "1961-01-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1959-06-01",
+    "end" : "1960-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-03-01",
+    "end" : "1959-05-31",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1959-03-01",
+    "end" : "1959-05-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1959-01-02",
+    "end" : "1959-02-28",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-08-05",
+    "end" : "1959-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-08-03",
+    "end" : "1958-08-04",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-06-14",
+    "end" : "1958-08-02",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-06-01",
+    "end" : "1958-06-13",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-04-01",
+    "end" : "1958-05-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1958-01-02",
+    "end" : "1958-03-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1953-06-01",
+    "end" : "1958-03-01",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-12-01",
+    "end" : "1958-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-11-01",
+    "end" : "1957-11-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-10-01",
+    "end" : "1957-10-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-08-01",
+    "end" : "1957-09-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-06-01",
+    "end" : "1957-07-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1957-05-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-04-01",
+    "end" : "1957-04-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-02-01",
+    "end" : "1957-03-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1957-01-02",
+    "end" : "1957-01-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1956-12-01",
+    "end" : "1957-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-11-01",
+    "end" : "1956-12-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1956-10-01",
+    "end" : "1956-11-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1956-09-01",
+    "end" : "1956-09-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1956-03-02",
+    "end" : "1956-08-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1956-01-09",
+    "end" : "1956-03-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-12-01",
+    "end" : "1956-01-08",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-11-01",
+    "end" : "1955-11-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-10-01",
+    "end" : "1955-10-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-09-01",
+    "end" : "1955-09-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-08-01",
+    "end" : "1955-08-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-07-01",
+    "end" : "1955-07-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-04-01",
+    "end" : "1955-06-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1955-02-01",
+    "end" : "1955-03-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1954-12-01",
+    "end" : "1955-01-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1954-11-01",
+    "end" : "1954-11-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1954-07-02",
+    "end" : "1954-10-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1954-05-01",
+    "end" : "1954-07-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1954-03-02",
+    "end" : "1954-04-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1954-01-02",
+    "end" : "1954-03-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1953-07-01",
+    "end" : "1954-01-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1953-06-01",
+    "end" : "1953-07-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1953-05-31",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1953-02-26",
+    "end" : "1953-05-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1953-02-09",
+    "end" : "1953-02-25",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1952-11-01",
+    "end" : "1953-02-08",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1952-06-02",
+    "end" : "1952-10-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1950-04-01",
+    "end" : "1952-06-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1952-02-12",
+    "end" : "1952-04-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1952-01-02",
+    "end" : "1952-02-11",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1951-02-28",
+    "model" : "Hygrograph nach Frankenberg",
+    "method" : "Feuchteregistrieung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1950-08-30",
+    "end" : "1950-11-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1949-02-01",
+    "end" : "1950-08-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1948-05-01",
+    "end" : "1949-01-31",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1947-10-02",
+    "end" : "1948-04-30",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1947-10-01",
+    "model" : "Aspirations-Psychrometer nach Aßmann",
+    "method" : "Feuchtemessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "2018-05-31",
+    "model" : "Digitalbarometer PTB 330",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2017-04-27",
+    "end" : "2018-05-30",
+    "model" : "Digitalbarometer PTB 330",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2015-09-24",
+    "end" : "2017-04-26",
+    "model" : "Digitalbarometer PTB 330",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2014-06-03",
+    "end" : "2015-09-24",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2013-03-13",
+    "end" : "2014-06-03",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2012-04-04",
+    "end" : "2013-03-13",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2010-11-29",
+    "end" : "2012-04-04",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2010-02-24",
+    "end" : "2010-11-29",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : 49.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2009-05-14",
+    "end" : "2010-02-24",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-05-14",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2003-11-21",
+    "end" : "2008-11-27",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "2008-11-27",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1994-01-03",
+    "end" : "2003-11-20",
+    "model" : "Digitalbarometer AIR-DB",
+    "method" : "Luftdruckmessung, elektr.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1977-08-06",
+    "end" : "1980-01-07",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1974-10-02",
+    "end" : "1977-08-05",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1970-09-02",
+    "end" : "1974-10-01",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1971-11-01",
+    "end" : "1972-09-30",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1970-09-01",
+    "end" : "1971-10-31",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1967-07-19",
+    "end" : "1970-09-01",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1967-07-16",
+    "end" : "1967-07-18",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1967-07-15",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1957-04-30",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1952-07-22",
+    "end" : "1957-04-30",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1948-02-01",
+    "end" : "1957-04-30",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1952-07-18",
+    "end" : "1952-07-21",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1951-09-01",
+    "end" : "1952-07-17",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1951-08-31",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1948-02-01",
+    "end" : "1951-02-28",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1948-02-01",
+    "end" : "1951-02-28",
+    "model" : "Barograph",
+    "method" : "Luftdruckregistrierung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1948-01-31",
+    "model" : "Stationsbarometer",
+    "method" : "Luftdruckmessung, konv.",
+    "height" : -999.0,
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "2018-05-31",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2017-07-19",
+    "model" : "Niederschlagswächter",
+    "method" : "Niederschlagsdauer, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2014-08-19",
+    "end" : "2018-05-30",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2017-07-19",
+    "model" : "Niederschlags-Detektor",
+    "method" : "Niederschlagsdauer, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2013-08-21",
+    "end" : "2014-08-18",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2013-04-18",
+    "end" : "2013-08-18",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2012-11-23",
+    "end" : "2013-04-11",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2010-09-23",
+    "end" : "2012-11-21",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2009-11-06",
+    "end" : "2010-09-23",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2009-06-03",
+    "end" : "2009-11-05",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-06-03",
+    "model" : "PLUVIO",
+    "method" : "Niederschlagsmenge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2003-02-03",
+    "end" : "2008-11-27",
+    "model" : "Schneesonde WS 43",
+    "method" : "Wasseräquivalentmessung, manuell",
+    "height" : -999.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "2008-11-27",
+    "model" : "Schneeausstecher",
+    "method" : "Wasseräquivalentmessung, manuell",
+    "height" : -999.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2002-03-07",
+    "end" : "2008-11-27",
+    "model" : "Regenschreiber",
+    "method" : "Niederschlagsregistrierung, konv.",
+    "height" : 1.2,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "2008-11-27",
+    "model" : "Hellmann",
+    "method" : "Niederschlagsmenge, konv.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2004-09-14",
+    "end" : "2008-11-27",
+    "model" : "NG 200",
+    "method" : "Niederschlagsdauer, -menge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2002-08-14",
+    "end" : "2004-09-13",
+    "model" : "NG 200",
+    "method" : "Niederschlagsdauer, -menge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1998-11-01",
+    "end" : "2003-02-02",
+    "model" : "Schneesonde WS 43",
+    "method" : "Wasseräquivalentmessung, manuell",
+    "height" : -999.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2002-03-07",
+    "end" : "2002-08-13",
+    "model" : "NG 200",
+    "method" : "Niederschlagsdauer, -menge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2001-03-28",
+    "end" : "2002-03-06",
+    "model" : "Regenschreiber",
+    "method" : "Niederschlagsregistrierung, konv.",
+    "height" : 1.2,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2000-07-20",
+    "end" : "2002-03-06",
+    "model" : "NG 200",
+    "method" : "Niederschlagsdauer, -menge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "2001-03-27",
+    "model" : "Regenschreiber",
+    "method" : "Niederschlagsregistrierung, konv.",
+    "height" : 1.2,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1995-01-25",
+    "end" : "2000-07-19",
+    "model" : "NG 200",
+    "method" : "Niederschlagsdauer, -menge, elektr.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Hellmann",
+    "method" : "Niederschlagsmenge, konv.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Regenschreiber",
+    "method" : "Niederschlagsregistrierung, konv.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1957-04-30",
+    "model" : "Hellmann",
+    "method" : "Niederschlagsmenge, konv.",
+    "height" : 1.1,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1955-06-01",
+    "end" : "1957-04-30",
+    "model" : "Regenschreiber",
+    "method" : "Niederschlagsregistrierung, konv.",
+    "height" : 1.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1957-04-30",
+    "model" : "Schneeausstecher",
+    "method" : "Wasseräquivalentmessung, manuell",
+    "height" : -999.0,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1951-02-28",
+    "model" : "Hellmann",
+    "method" : "Niederschlagsmenge, konv.",
+    "height" : 1.1,
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2017-06-27",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2014-10-16",
+    "end" : "2017-06-26",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2014-07-22",
+    "end" : "2014-10-03",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2014-06-03",
+    "end" : "2014-07-08",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2011-06-17",
+    "end" : "2014-06-03",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2010-11-29",
+    "end" : "2011-06-03",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2009-07-20",
+    "end" : "2010-11-24",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2009-01-19",
+    "end" : "2009-07-20",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-01-19",
+    "model" : "SCAPP",
+    "method" : "Strahlungsmessung, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2003-05-21",
+    "end" : "2008-11-27",
+    "model" : "Sonnenscheinschreiber nach Campbell-Stokes",
+    "method" : "Sonnenscheinregistrierung, konv.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2007-06-05",
+    "end" : "2008-11-27",
+    "model" : "SONIe Sonnenenergie-Sensor",
+    "method" : "Sonnenscheindauer, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2006-03-14",
+    "end" : "2007-06-04",
+    "model" : "SONIe Sonnenenergie-Sensor",
+    "method" : "Sonnenscheindauer, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2003-09-25",
+    "end" : "2006-03-13",
+    "model" : "SONIe Sonnenenergie-Sensor",
+    "method" : "Sonnenscheindauer, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2000-05-23",
+    "end" : "2003-09-24",
+    "model" : "SONIe Sonnenenergie-Sensor",
+    "method" : "Sonnenscheindauer, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2002-06-20",
+    "end" : "2003-05-20",
+    "model" : "Sonnenscheinschreiber nach Campbell-Stokes",
+    "method" : "Sonnenscheinregistrierung, konv.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "2002-06-19",
+    "model" : "Sonnenscheinschreiber nach Campbell-Stokes",
+    "method" : "Sonnenscheinregistrierung, konv.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1995-01-25",
+    "end" : "2000-05-22",
+    "model" : "SONIe Sonnenenergie-Sensor",
+    "method" : "Sonnenscheindauer, elektr.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1949-02-01",
+    "end" : "1949-02-28",
+    "model" : "Sonnenscheinschreiber nach Campbell-Stokes",
+    "method" : "Sonnenscheinregistrierung, konv.",
+    "height" : 3.7,
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -1.0,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.1,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.2,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.5,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.05,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.5,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.05,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.2,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -0.1,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2009-05-27",
+    "end" : "2009-06-03",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -1.0,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2008-12-01",
+    "model" : "PT 100 (Erdboden)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : -1.0,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1974-03-01",
+    "end" : "2008-11-27",
+    "model" : "Erdbodenthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : -0.05,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1987-01-01",
+    "end" : "2008-11-27",
+    "model" : "Erdbodenthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : -0.5,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1974-03-01",
+    "end" : "2008-11-27",
+    "model" : "Erdbodenthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : -0.2,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1974-03-01",
+    "end" : "2008-11-27",
+    "model" : "Erdbodenthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : -0.1,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1987-01-01",
+    "end" : "2008-11-27",
+    "model" : "Erdbodenthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : -1.0,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1974-03-01",
+    "end" : "1991-10-31",
+    "model" : "Erdbodenthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : -0.02,
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "2008-11-27",
+    "model" : "PT 100 (Luft)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2018-05-31",
+    "model" : "PT 100 (Luft)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2016-06-08",
+    "end" : "2018-05-30",
+    "model" : "PT 100 (Luft)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2014-02-25",
+    "end" : "2016-06-08",
+    "model" : "PT 100 (Luft)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2009-06-05",
+    "end" : "2014-02-25",
+    "model" : "PT 100 (Luft)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2008-11-27",
+    "end" : "2009-06-05",
+    "model" : "PT 100 (Luft)",
+    "method" : "Temperaturmessung, elektr.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2006-11-10",
+    "end" : "2008-11-27",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "2008-11-27",
+    "model" : "Psychrometerthermometer (trocken)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "2008-11-27",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.2,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1981-07-02",
+    "end" : "2008-11-27",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.2,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2006-04-07",
+    "end" : "2006-11-09",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2002-06-20",
+    "end" : "2006-04-06",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2002-06-13",
+    "end" : "2002-06-19",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1981-07-19",
+    "end" : "2002-06-12",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1995-04-11",
+    "end" : "1995-05-31",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1994-10-07",
+    "end" : "1995-04-10",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1979-04-18",
+    "end" : "1994-10-06",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1977-09-29",
+    "end" : "1981-08-01",
+    "model" : "Psychrometerthermometer (feucht)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1973-09-02",
+    "end" : "1981-07-18",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1980-06-18",
+    "end" : "1981-07-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1980-06-17",
+    "end" : "1980-06-18",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1979-04-10",
+    "end" : "1980-06-16",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1979-02-02",
+    "end" : "1979-04-17",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1978-02-07",
+    "end" : "1979-04-09",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1977-08-25",
+    "end" : "1979-02-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1978-01-20",
+    "end" : "1978-02-06",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1977-07-18",
+    "end" : "1978-01-19",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1976-12-27",
+    "end" : "1977-09-28",
+    "model" : "Psychrometerthermometer (feucht)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1970-09-01",
+    "end" : "1977-09-28",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1976-12-15",
+    "end" : "1977-08-24",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1971-09-26",
+    "end" : "1977-07-17",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1976-12-26",
+    "model" : "Psychrometerthermometer (feucht)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1975-08-02",
+    "end" : "1976-12-14",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1975-04-15",
+    "end" : "1975-08-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1972-09-02",
+    "end" : "1975-04-14",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1971-10-11",
+    "end" : "1973-09-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1968-07-16",
+    "end" : "1972-09-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "1971-10-10",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1969-10-02",
+    "end" : "1971-09-25",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Psychrometerthermometer (trocken)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1969-04-02",
+    "end" : "1970-09-09",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1955-09-01",
+    "end" : "1970-09-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1969-06-15",
+    "end" : "1969-10-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1969-06-02",
+    "end" : "1969-06-14",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1968-03-02",
+    "end" : "1969-06-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1967-02-21",
+    "end" : "1969-04-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1966-07-02",
+    "end" : "1968-07-15",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1967-10-02",
+    "end" : "1968-03-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1965-02-16",
+    "end" : "1967-10-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1965-04-02",
+    "end" : "1967-02-21",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1965-04-02",
+    "end" : "1966-07-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1964-04-02",
+    "end" : "1965-04-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1963-02-14",
+    "end" : "1965-04-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1963-10-12",
+    "end" : "1965-02-15",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1962-05-02",
+    "end" : "1964-04-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1959-04-02",
+    "end" : "1963-10-11",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1962-11-02",
+    "end" : "1963-02-13",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1961-11-02",
+    "end" : "1962-11-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1962-02-01",
+    "end" : "1962-05-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1960-10-02",
+    "end" : "1962-02-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1960-11-02",
+    "end" : "1961-11-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1959-06-01",
+    "end" : "1960-11-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1960-10-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1958-03-02",
+    "end" : "1959-05-31",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1959-03-02",
+    "end" : "1959-04-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1958-11-02",
+    "end" : "1959-03-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1958-10-08",
+    "end" : "1958-11-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1958-07-15",
+    "end" : "1958-10-07",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1958-07-11",
+    "end" : "1958-07-14",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1957-03-02",
+    "end" : "1958-07-10",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.1,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1957-06-01",
+    "end" : "1958-03-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1955-05-02",
+    "end" : "1957-05-31",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1955-01-02",
+    "end" : "1957-04-30",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1957-04-30",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1957-04-30",
+    "model" : "Psychrometerthermometer (trocken)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1955-09-02",
+    "end" : "1957-03-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1954-08-02",
+    "end" : "1955-09-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1952-08-01",
+    "end" : "1955-09-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1954-09-02",
+    "end" : "1955-05-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1953-02-02",
+    "end" : "1955-01-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1953-06-01",
+    "end" : "1954-09-01",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1954-04-02",
+    "end" : "1954-08-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1953-11-01",
+    "end" : "1954-04-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1952-12-02",
+    "end" : "1953-11-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1953-05-31",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1953-02-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1952-12-01",
+    "model" : "Maximumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1951-02-28",
+    "model" : "Thermograph",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1951-02-28",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1949-10-02",
+    "end" : "1951-02-28",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1951-02-28",
+    "model" : "Psychrometerthermometer (trocken)",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1949-02-02",
+    "end" : "1949-10-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1948-01-03",
+    "end" : "1949-02-01",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1947-12-01",
+    "end" : "1948-01-02",
+    "model" : "Minimumthermometer",
+    "method" : "Temperaturmessung, konv.",
+    "height" : 0.05,
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "2000-12-18",
+    "end" : "2008-11-27",
+    "model" : "Thermohygrograph",
+    "method" : "Temperatur- und Feuchtereg., konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1995-06-01",
+    "end" : "2000-12-17",
+    "model" : "Thermohygrograph",
+    "method" : "Temperatur- und Feuchtereg., konv.",
+    "height" : 2.0,
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "2018-12-04",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2016-03-10",
+    "end" : "2018-12-03",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2015-06-08",
+    "end" : "2016-03-10",
+    "model" : "Ultrasonic Anemometer 3D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2014-09-18",
+    "end" : "2015-06-08",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2014-08-19",
+    "end" : "2014-09-18",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2013-09-04",
+    "end" : "2014-08-14",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2012-12-12",
+    "end" : "2013-09-04",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2011-10-24",
+    "end" : "2012-12-03",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2010-10-28",
+    "end" : "2011-10-21",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2010-04-07",
+    "end" : "2010-10-20",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2009-05-14",
+    "end" : "2010-04-07",
+    "model" : "Ultrasonic Anemometer 2D",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2009-04-02",
+    "end" : "2009-05-06",
+    "model" : "Windrichtungssensor Classic 4.3121",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "2009-04-02",
+    "end" : "2009-05-06",
+    "model" : "Windsensor Classic 4.3303",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1994-12-01",
+    "end" : "2009-03-30",
+    "model" : "Windsensor Classic 4.3303",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1994-12-01",
+    "end" : "2009-03-30",
+    "model" : "Windrichtungssensor Classic 4.3121",
+    "method" : "Windmessung, elektr.",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1970-09-10",
+    "end" : "1994-11-30",
+    "model" : "Universal-Windschreiber 90",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1957-05-01",
+    "end" : "1970-09-09",
+    "model" : "Universal-Windschreiber 90",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 10.0,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1954-08-01",
+    "end" : "1957-04-30",
+    "model" : "Universal-Windschreiber 90",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 20.1,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1951-03-01",
+    "end" : "1954-07-31",
+    "model" : "Universal-Windschreiber 90",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 20.1,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1950-12-01",
+    "end" : "1951-02-28",
+    "model" : "Universal-Windschreiber 90",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 28.1,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1949-12-01",
+    "end" : "1950-11-30",
+    "model" : "Universal-Windschreiber 90",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 31.8,
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1947-07-01",
+    "end" : "1949-11-30",
+    "model" : "Windmessanlage amerikanisches Fabrikat",
+    "method" : "Windmessung, elektromechanisch",
+    "height" : 31.8,
+    "parameterClassDe" : "Wind"
+  } ],
+  "mezas" : [ {
+    "start" : "1949-01-01",
+    "end" : "2019-01-21",
+    "desc" : "P :LUFTDRUCK_REDUZIERT",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-10-31",
+    "desc" : "NM :BEDECKUNGSGRAD",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-10-01",
+    "desc" : "MO_N :BEDECKUNGSGRAD",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1949-01-01",
+    "end" : "2008-11-01",
+    "desc" : "N :GESAMT_BEDECKUNGSGRAD",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_TX :LUFTTEMPERATUR_MAXIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_TX :LUFTTEMPERATUR_MAXIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1986-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE10 :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_VPM :DAMPFDRUCK",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "VPM :DAMPFDRUCK",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2017-01-01",
+    "desc" : "JA_VPM :DAMPFDRUCK",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_EBM :ERDBODENMINIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_EBM :ERDBODENMINIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TGK :LUFTTEMP_AM_ERDB_MINIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-10-01",
+    "desc" : "MO_NSHK :NEUSCHNEEHOEHE",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1960-01-01",
+    "end" : "2008-10-01",
+    "desc" : "MO_NSH :NEUSCHNEEHOEHE",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1960-01-01",
+    "end" : "2007-01-01",
+    "desc" : "JA_NSH :NEUSCHNEEHOEHE",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "2001-04-03",
+    "end" : "2014-06-14",
+    "desc" : "WRTR :NIEDERSCHLAGSFORM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1995-09-01",
+    "end" : "2019-01-22",
+    "desc" : "RS_IND :NIEDERSCHLAG_GEFALLEN_IND",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "RSKF :NIEDERSCHLAGSHOEHE_IND",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "RSF :NIEDERSCHLAGSHOEHE_IND",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_TN :LUFTTEMPERATUR_MINIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_TN :LUFTTEMPERATUR_MINIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1974-01-01",
+    "end" : "2019-01-21",
+    "desc" : "FX :WINDSPITZE_MAXIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1971-01-01",
+    "end" : "2019-01-21",
+    "desc" : "FXK :WINDSPITZE_MAXIMUM",
+    "parameterClassDe" : "etc."
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "UPM :REL_FEUCHTE",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1951-01-01",
+    "end" : "2019-01-21",
+    "desc" : "RF_TU :REL_FEUCHTE",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1990-07-01",
+    "end" : "2019-01-21",
+    "desc" : "UR :REL_FEUCHTE_REGISTRIERUNG",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1989-05-05",
+    "end" : "2019-01-21",
+    "desc" : "UU :REL_FEUCHTE",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2017-01-01",
+    "desc" : "JA_RF :REL_FEUCHTE",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_RF :REL_FEUCHTE",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1949-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TD :TAUPUNKTTEMPERATUR",
+    "parameterClassDe" : "Feuchte"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "PM :LUFTDRUCK_STATIONSHOEHE",
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_P0 :LUFTDRUCK_STATIONSHOEHE",
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2017-01-01",
+    "desc" : "JA_P0 :LUFTDRUCK_STATIONSHOEHE",
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1987-11-01",
+    "end" : "2019-01-21",
+    "desc" : "P0 :LUFTDRUCK_STATIONSHOEHE",
+    "parameterClassDe" : "Luftdruck"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-10-01",
+    "desc" : "MO_SH :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1991-01-05",
+    "end" : "2001-03-27",
+    "desc" : "ASH :HOEHE_AUSGESTOCHENER_SCHNEE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1955-01-01",
+    "end" : "2008-03-26",
+    "desc" : "SH :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-11-01",
+    "desc" : "SH_TAG :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2007-01-01",
+    "desc" : "JA_SH_S :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-11-01",
+    "desc" : "SHK_TAG :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-10-01",
+    "desc" : "MO_SHK :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2008-10-01",
+    "desc" : "MO_SH_S :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2007-01-01",
+    "desc" : "JA_SH :SCHNEEHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "RSK :NIEDERSCHLAGSHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "RS :NIEDERSCHLAGSHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1928-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_RR :NIEDERSCHLAGSHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1995-09-01",
+    "end" : "2019-01-22",
+    "desc" : "R1 :NIEDERSCHLAGSHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1928-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_RR :NIEDERSCHLAGSHOEHE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1998-12-08",
+    "end" : "2008-01-02",
+    "desc" : "RW :WASSERAEQUIV_PRO_CM",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "1990-07-25",
+    "end" : "2001-03-27",
+    "desc" : "WAAS :WASSERAEQUIV_SCHNEE",
+    "parameterClassDe" : "Niederschlag"
+  }, {
+    "start" : "2008-11-26",
+    "end" : "2019-01-21",
+    "desc" : "FD :DIF_HIMMELSSTRAHLUNG_JOULE",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1971-01-01",
+    "end" : "2019-01-21",
+    "desc" : "SD :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1971-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_SD_S :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1971-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_SD :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1970-12-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_SD_S :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1970-12-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_SD :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1995-01-25",
+    "end" : "2019-01-21",
+    "desc" : "SD_SY :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1970-11-17",
+    "end" : "2019-01-21",
+    "desc" : "SDK :SONNENSCHEINDAUER",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "2001-08-28",
+    "end" : "2019-01-21",
+    "desc" : "FG :GLOBALSTRAHLUNG_JOULE",
+    "parameterClassDe" : "Strahlung"
+  }, {
+    "start" : "1990-07-07",
+    "end" : "2019-01-21",
+    "desc" : "TT_ERD :LUFTTEMP_AM_ERDB",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1987-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE50M :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1987-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE50 :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE10M :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "1991-10-31",
+    "desc" : "TE02M :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "1991-10-31",
+    "desc" : "TE02 :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1987-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE100 :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE20M :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE20 :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE05M :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1986-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TE05 :ERDBODENTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Erdboden)"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TXK :LUFTTEMPERATUR_MAXIMUM",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_TT :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1951-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TT_TU :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1949-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TT :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_TT :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TMK :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TNK :LUFTTEMPERATUR_MINIMUM",
+    "parameterClassDe" : "Temperatur (Luft)"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "UPM :REL_FEUCHTE",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1951-01-01",
+    "end" : "2019-01-21",
+    "desc" : "RF_TU :REL_FEUCHTE",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1990-07-01",
+    "end" : "2019-01-21",
+    "desc" : "UR :REL_FEUCHTE_REGISTRIERUNG",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1989-05-05",
+    "end" : "2019-01-21",
+    "desc" : "UU :REL_FEUCHTE",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2017-01-01",
+    "desc" : "JA_RF :REL_FEUCHTE",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_RF :REL_FEUCHTE",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-01-01",
+    "desc" : "JA_TT :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1951-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TT_TU :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1949-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TT :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1938-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_TT :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "TMK :LUFTTEMPERATUR",
+    "parameterClassDe" : "Temperatur / Feuchte"
+  }, {
+    "start" : "1949-01-01",
+    "end" : "2019-01-21",
+    "desc" : "DD :WINDRICHTUNG",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1975-01-01",
+    "end" : "2019-01-21",
+    "desc" : "D :WINDRICHTUNG",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1974-01-01",
+    "end" : "2019-01-21",
+    "desc" : "F :WINDGESCHWINDIGKEIT",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1974-01-01",
+    "end" : "2019-01-21",
+    "desc" : "FM :WINDGESCHWINDIGKEIT",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1949-01-01",
+    "end" : "2019-01-21",
+    "desc" : "FF :WINDGESCHWINDIGKEIT",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2018-12-01",
+    "desc" : "MO_FK :WINDSTAERKE",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2017-01-01",
+    "desc" : "JA_FK :WINDSTAERKE",
+    "parameterClassDe" : "Wind"
+  }, {
+    "start" : "1948-01-01",
+    "end" : "2019-01-21",
+    "desc" : "FMK :WINDSTAERKE",
+    "parameterClassDe" : "Wind"
+  } ]
+}

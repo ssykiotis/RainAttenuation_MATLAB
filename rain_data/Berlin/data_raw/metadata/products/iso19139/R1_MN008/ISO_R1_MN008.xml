@@ -1,0 +1,767 @@
+<?xml version="1.0" standalone="yes"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd         http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20070417/gmx/gmx.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>urn:x-wmo:md:de.dwd.cdc::R1_MN008</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>RTH</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Deutscher Wetterdienst</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>RTH FOCAL POINT</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>+49 (0) 69 8062-2546</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>+49 (0) 69 8062-4162</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Frankfurter Straße 135</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Offenbach</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>63067</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Germany</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>rth@dwd.de</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>www.dwd.de</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2018-10-16T10:10:22Z</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>WMO Core Metadata Profile of ISO 19115 (WMO Core), 
+									2003/Cor.1:2006 (ISO 19115), 2007 (ISO/TS 19139)</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.3</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:locale>
+    <gmd:PT_Locale id="deu">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#LanguageCode" codeListValue="deu">deu</gmd:LanguageCode>
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:authority>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>European Petroleum Survey Group (EPSG) Geodetic Parameter Registry</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-11-12</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:authority>
+          <gmd:code>
+            <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:metadataExtensionInfo>
+    <gmd:MD_MetadataExtensionInformation>
+      <gmd:extensionOnLineResource>
+        <gmd:CI_OnlineResource>
+          <gmd:linkage>
+            <gmd:URL>http://www.wmo.int/pages/prog/wis/2012/metadata/version_1-3/</gmd:URL>
+          </gmd:linkage>
+          <gmd:name>
+            <gco:CharacterString>WMO Core Metadata Profile, version 1.3</gco:CharacterString>
+          </gmd:name>
+        </gmd:CI_OnlineResource>
+      </gmd:extensionOnLineResource>
+    </gmd:MD_MetadataExtensionInformation>
+  </gmd:metadataExtensionInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification id="identInfo">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Hourly station observations of precipitation amount in mm</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">Hourly station observations of precipitation amount in mm</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Stündliche Stationsmessungen der Niederschlagshöhe in mm</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2018-10-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2018-10-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier id="fileIdentifier">
+              <gmd:code>
+                <gco:CharacterString>urn:x-wmo:md:de.dwd.cdc::R1_MN008</gco:CharacterString>
+              </gmd:code>
+              <gmd:codeSpace>
+                <gco:CharacterString>http://wis.wmo.int</gco:CharacterString>
+              </gmd:codeSpace>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>RTH</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Deutscher Wetterdienst</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>RTH FOCAL POINT</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+49 (0) 69 8062-2546</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>+49 (0) 69 8062-4162</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Frankfurter Straße 135</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Offenbach</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:postalCode>
+                        <gco:CharacterString>63067</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Germany</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>rth@dwd.de</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>www.dwd.de</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="documentDigital">documentDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>The dot notation recommended by WMO-CBS IPET-MDRD is used to build the code identifier.</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>This data are from DWD stations operated for climatological and climate related applications (partner stations not included). Comprehensive station metadata (station relocation, instrument change, time zones, change of algorithms) are included. The most recent data have not completed the full quality control as applied to the versioned period.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="deu">Diese Daten stammen aus den Stationen des DWD (Partnernetze nicht enthalten). Umfangreiche Stationsmetadaten (Stationsverlegungen, Instrumentenwechsel, Wechsel der Bezugszeit, Änderungen in den Algorithmen) werden mitgeliefert. Bis zum Stichtag sind die Daten versioniert, für jüngere Daten ist die Qualitätskontrolle noch nicht abgeschlossen.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Dr. Frank Kaspar</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Deutscher Wetterdienst</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Nationales Klimadatenzentrum (NKDZ)</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+49 (0) 69 8062-4963</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>+49 (0) 69 8062-3759</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Frankfurter Straße 135</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Offenbach</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>63067</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Germany</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>frank.kaspar@dwd.de</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>www.dwd.de</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="daily">daily</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:updateScope>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:updateScope>
+          <gmd:updateScopeDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:dataset gco:nilReason="missing"/>
+            </gmd:MD_ScopeDescription>
+          </gmd:updateScopeDescription>
+          <gmd:maintenanceNote>
+            <gco:CharacterString>Die Datensätze in den Verzeichnissen */historical/ werden ca jährlich durch neue Versionen ersetzt, um neu 
+digitalisierte historische Daten aufzunehmen sowie Korrekturen und Verbesserungen anzubringen. Außerdem werden die versionierten Daten jeweils zeitlich um das vorangegangene Jahr erweitert. Diese Version weist gegenüber der vorigen eine Erweiterung des historischen Stationsbestandes auf. 
+Zusätzlich gibt es in dieser Version mehrere Formatänderungen gegenüber der vorigen, und die Metadaten wurden neu strukturiert und erweitert.  
+Dieses Dokument wird vom Nationalen Klimadatenzentrum (NKDZ) des DWD gepflegt, zuletzt editiert am 09.11.2017.</gco:CharacterString>
+          </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>--TODO: Preview Field/Link</gco:CharacterString>
+          </gmd:fileName>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords uuidref="NO_ISO_ELEMENT">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>CDC/Terms_of_use</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">CDC/Terms_of_use</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">CDC/Nutzungsbedingungen</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="no_iso_element">no_iso_element</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="PLACE">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Germany</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">Germany</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Deutschland</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="PLATFORMS">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>station data</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">station data</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Stationsdaten</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platforms">platforms</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="THEME">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>precipitation</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">precipitation</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Niederschlag</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="THEME">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Atmospheric conditions</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">Atmospheric conditions</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Atmosphärische Bedingungen</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Meteorological geographical features</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">Meteorological geographical features</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Meteorologisch-geografische Kennwerte</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName xlink:href="http://www.eionet.europa.eu/gemet/inspire_themes">
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET - INSPIRE Themen, version 1.0</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="GMD:MD_MAINTENANCEFREQUENCYCODE">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>daily</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">daily</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">täglich</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="gmd:md_maintenancefrequencycode">gmd:md_maintenancefrequencycode</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName xlink:href="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode">
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Aktualisierungsfrequenz</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="THEME">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>precipitation height</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">precipitation height</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Niederschlagshöhe</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="UNITS">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>mm</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">mm</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">mm</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="units">units</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="VERTICAL">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>near surface atmosphere</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">near surface atmosphere</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">bodennahe Atmosphäre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="vertical">vertical</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="OGC:STYLE">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>rr_sum_pt1-24h_ptz</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">rr_sum_pt1-24h_ptz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">rr_sum_pt1-24h_ptz</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="ogc:style">ogc:style</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="NO_ISO_ELEMENT">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>time series</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">time series</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Zeitreihe</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>hourly sum</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">hourly sum</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">Stundensumme </gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="no_iso_element">no_iso_element</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords uuidref="TEMPORAL_RESOLUTION">
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>hourly</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="eng">hourly</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="deu">stündlich</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal_resolution">temporal_resolution</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName gco:nilReason="missing"/>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceSpecificUsage>
+        <gmd:MD_Usage uuid="Considerations for applications">
+          <gmd:specificUsage>
+            <gco:CharacterString>When investigating long term changes or trends, consider changes in station location, changes in instrumentation, measurement procedures and observation intervals - see the various metadata information provided Metadaten_Parameter*, Metadaten_Geraete* und Metadaten_Geographie*. Starting in the nineties, the metadata are electronically recorded and provided together with the station measurements. For the time before, efforts are continuing to digitize the most relevant metadata based on the paper records however, many gaps are still remaining. For detailed studies, DWD can grant access to the station records.</gco:CharacterString>
+          </gmd:specificUsage>
+          <gmd:userContactInfo uuidref="22"/>
+        </gmd:MD_Usage>
+      </gmd:resourceSpecificUsage>
+      <gmd:resourceSpecificUsage>
+        <gmd:MD_Usage uuid="Uncertainties">
+          <gmd:specificUsage>
+            <gco:CharacterString>The stations are nowadays selected and operated according to WMO guidelines. Though these guidelines aim at minimizing  possible local effects, still some applications of certain parameters may require the consideration of local and regional effects. Note that when going back to historical times, such guidelines might not have been in place. Depending on the application, local, regional and influences changing with time should be considered, which can be location- and parameter specific. Sources of long-term uncertainty are  (1) changes in station height when station was re-located, information on this is within the station&apos;s zip-files in Metadaten_Geographie* ; (2) changes in the observation times  and (3) changes in the averaging interval. Details on (2) and (3) can be found in the stationwise zipped Metadaten_Parameter*. Uncertainties are also expected from (4) changes in instrumentation, see Metadaten_Geraete* and possibly also from (5) varying quality control procedures (Behrendt et al., 2011). Further, uncertainties are known to come from (6) errors during data transfer or errors in the software, (7) change of observing personnel, and (8) others, see Freydank, 2014 .</gco:CharacterString>
+          </gmd:specificUsage>
+          <gmd:userContactInfo uuidref="22"/>
+        </gmd:MD_Usage>
+      </gmd:resourceSpecificUsage>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>The instructions in ftp://ftp-cdc.dwd.de/pub/CDC/Terms_of_use.txt should be followed. The website of Deutscher Wetterdienst provides comprehensive copyright information.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>NoLimitation</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingExtent">
+          <gmd:description>
+            <gco:CharacterString>Geographic bounding box that covers the area of product/data</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>   5.8500</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>  15.9200</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>  47.4000</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>  55.0100</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement uuidref="BEGIN_END">
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="timeperiod.2018-10-16">
+                  <gml:beginPosition>1995-09-01</gml:beginPosition>
+                  <gml:endPosition indeterminatePosition="unknown"/>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency xsi:type="gmd:DQ_DomainConsistency_Type">
+          <gmd:result>
+            <gmd:DQ_ConformanceResult xsi:type="gmd:DQ_ConformanceResult_Type">
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2010-12-08</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>::TODO::</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification gco:nilReason="missing"/>
+              <gmd:explanation>
+                <gco:CharacterString>Considerations of quality assurance are explained in Kaspar et al., 2013: several steps of quality control, including automatic tests for completeness, temporal and internal consistency, and against statistical thresholds based on the software QualiMet (see Spengler, 2002) and manual inspection had been applied. 
+Data are provided “as observed”, no homogenization has been carried out. The history of instrumental design, observation practice, and possibly changing representativity has to be considered for the individual stations when interpreting changes in the statistical properties of the time series. It is strongly suggested to investigate the records of the station history which are provided together with the data. Note that in the 1990s many stations had the transition from manual to automated stations, entailing possible changes in certain statistical properties.</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass gco:nilReason="missing"/>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>These climate data are from the station networks of Deutschen Wetterdienst which are regularly updated with recent data, and with recovered historical data. From 1997 onwards, the data are collected in the central MIRAKEL data base and archived, see  Behrendt et al., 2011, und Kaspar et al., 2013. For details on the currently applied measurement and observation procedures see VuB 3 Beobachterhandbuch (DWD, 2014a), VuB 3  Technikerhandbuch (DWD, 2014b) and VuB 2 Wetterschlüsselhandbuch (DWD, 2013). Note that when going back to historical times, guidelines on observation procedure, instruments and observation times were issued by the authority in charge, and might be incompletely recorded in the metadata.</gco:CharacterString>
+          </gmd:statement>
+          <gmd:source xlink:role="reference"/>
+          <gmd:source xlink:title=" Behrendt, J., et al.: Beschreibung der Datenbasis des NKDZ. Version 3.5, Offenbach, 15.02.2011.  " xlink:role="reference"/>
+          <gmd:source xlink:title=" DWD Vorschriften und Betriebsunterlagen Nr. 2 (VuB 2), Wetterschlüsselhandbuch Band D, Nov 2013.  " xlink:role="reference"/>
+          <gmd:source xlink:title=" DWD Vorschriften und Betriebsunterlagen Nr. 3 (VuB 3), Beobachterhandbuch (BHB) für Wettermeldestellen des synoptisch-klimatologischen Mess- und Beobachtungsnetzes, März 2014a .  " xlink:role="reference"/>
+          <gmd:source xlink:title=" DWD Vorschriften und Betriebsunterlagen Nr. 3 (VuB 3), Technikerhandbuch (THB) für Wettermeldestellen des synoptisch-klimatologischen Mess- und Beobachtungsnetzes, März 2014b.  " xlink:role="reference"/>
+          <gmd:source xlink:title=" Freydank, E.: 150 Jahre staatliche Wetter- und Klimabeobachtungen in Sachsen. Tharandter Klimaprotokolle Band 21, 2014. " xlink:role="reference"/>
+          <gmd:source xlink:title=" Kaspar, F., et al.: Monitoring of climate change in Germany – data, products and services of Germany`s National Climate Data Centre. Adv. Sci. Res., 10, doi:10.5194/asr-10-99-2013, 99–106, 2013.  " xlink:role="reference"/>
+          <gmd:source xlink:title=" Spengler, R.: The new Quality Control- and Monitoring System of the Deutscher Wetterdienst. Proceedings of the WMO Technical Conference on Meteorological and Environmental Instruments  and Methods of Observation, Bratislava, 2002." xlink:role="reference"/>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

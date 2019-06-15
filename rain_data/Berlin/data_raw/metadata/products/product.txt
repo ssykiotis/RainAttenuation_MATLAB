@@ -1,0 +1,2 @@
+shortname,titleDe,titleEn
+R1_MN008;Stündliche Stationsmessungen der Niederschlagshöhe in mm;Hourly station observations of precipitation amount in mm

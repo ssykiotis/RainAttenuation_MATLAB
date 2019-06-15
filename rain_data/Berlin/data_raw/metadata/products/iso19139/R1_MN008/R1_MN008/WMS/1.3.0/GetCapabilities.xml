@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><WMS_Capabilities xmlns:gco="http://schemas.opengis.net/iso/19139/20060504/gco/gco.xsd" xmlns:srv="http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd" xmlns:gml="http://schemas.opengis.net/gml" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:gmd="http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd" version="1.3.0" updateSequence="469" xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wms https://cdc.dwd.de:443/geoserver/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 https://cdc.dwd.de:443/geoserver/www/inspire/inspire_vs.xsd">
+  <Service>
+    <Name>WMS</Name>
+    <Title>DWD GeoServer WMS</Title>
+    <Abstract>This is the Web Map Server of DWD.</Abstract>
+    <KeywordList>
+      <Keyword>climatology</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson/>
+        <ContactOrganization>Deutscher Wetterdienst</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition/>
+      <ContactAddress>
+        <AddressType>postal</AddressType>
+        <Address>Frankfurter Strasse 135</Address>
+        <City>Offenbach</City>
+        <StateOrProvince>Hessen</StateOrProvince>
+        <PostCode>63067</PostCode>
+        <Country>Germany</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone/>
+      <ContactFacsimileTelephone/>
+      <ContactElectronicMailAddress>info@dwd.de</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>http://www.dwd.de/DE/service/copyright/copyright_node.html</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/CDC/VGSL_R1_MN008/ows?SERVICE=WMS&amp;"/>
+            </Get>
+            <Post>
+              <OnlineResource xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/CDC/VGSL_R1_MN008/ows?SERVICE=WMS&amp;"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>application/atom+xml</Format>
+        <Format>application/pdf</Format>
+        <Format>application/rss+xml</Format>
+        <Format>application/vnd.google-earth.kml+xml</Format>
+        <Format>application/vnd.google-earth.kml+xml;mode=networklink</Format>
+        <Format>application/vnd.google-earth.kmz</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/geotiff8</Format>
+        <Format>image/gif</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/svg+xml</Format>
+        <Format>image/tiff</Format>
+        <Format>image/tiff8</Format>
+        <Format>text/html; subtype=openlayers</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/CDC/VGSL_R1_MN008/ows?SERVICE=WMS&amp;"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <Format>text/xml</Format>
+        <Format>application/vnd.ogc.gml/3.1.1</Format>
+        <Format>text/xml; subtype=gml/3.1.1</Format>
+        <Format>text/html</Format>
+        <Format>text/javascript</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/CDC/VGSL_R1_MN008/ows?SERVICE=WMS&amp;"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+      <Format>INIMAGE</Format>
+      <Format>BLANK</Format>
+    </Exception>
+    <inspire_vs:ExtendedCapabilities>
+      <inspire_common:MetadataUrl xsi:type="inspire_common:resourceLocatorType">
+        <inspire_common:URL/>
+        <inspire_common:MediaType>application/vnd.iso.19139+xml</inspire_common:MediaType>
+      </inspire_common:MetadataUrl>
+      <inspire_common:SupportedLanguages xsi:type="inspire_common:supportedLanguagesType">
+        <inspire_common:DefaultLanguage>
+          <inspire_common:Language>eng</inspire_common:Language>
+        </inspire_common:DefaultLanguage>
+        <inspire_common:SupportedLanguage>
+          <inspire_common:Language>eng</inspire_common:Language>
+        </inspire_common:SupportedLanguage>
+      </inspire_common:SupportedLanguages>
+      <inspire_common:ResponseLanguage>
+        <inspire_common:Language>eng</inspire_common:Language>
+      </inspire_common:ResponseLanguage>
+    </inspire_vs:ExtendedCapabilities>
+    <Layer>
+      <Title>DWD GeoServer WMS</Title>
+      <Abstract>This is the Web Map Server of DWD.</Abstract>
+      <!--Limited list of EPSG projections:-->
+      <CRS>EPSG:25832</CRS>
+      <CRS>EPSG:25833</CRS>
+      <CRS>EPSG:3044</CRS>
+      <CRS>EPSG:3045</CRS>
+      <CRS>EPSG:31467</CRS>
+      <CRS>EPSG:31468</CRS>
+      <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:4258</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:4839</CRS>
+      <CRS>CRS:84</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>5.8453</westBoundLongitude>
+        <eastBoundLongitude>15.9202</eastBoundLongitude>
+        <southBoundLatitude>47.3986</southBoundLatitude>
+        <northBoundLatitude>55.011</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="5.8453" miny="47.3986" maxx="15.9202" maxy="55.011"/>
+      <Layer>
+        <Name>climate</Name>
+        <Title>climate</Title>
+        <Layer>
+          <Name>observations</Name>
+          <Title>observations</Title>
+          <Layer>
+            <Name>germany</Name>
+            <Title>germany</Title>
+            <Layer>
+              <Name>hourly</Name>
+              <Title>hourly</Title>
+              <Layer queryable="1" opaque="0">
+                <Name>VGSL_R1_MN008</Name>
+                <Title>Stundliche Stationsmessungen der Niederschlagshohe in mm</Title>
+                <Abstract>Diese Daten stammen aus den Stationen des DWD (Partnernetze nicht enthalten). Umfangreiche Stationsmetadaten (Stationsverlegungen, Instrumentenwechsel, Wechsel der Bezugszeit, Anderungen in den Algorithmen) werden mitgeliefert. Bis zum Stichtag sind die Daten versioniert, fur jungere Daten ist die Qualitatskontrolle noch nicht abgeschlossen.</Abstract>
+                <KeywordList>
+                  <Keyword vocabulary="European Petroleum Survey Group (EPSG) Geodetic Parameter Registry">4326</Keyword>
+                  <Keyword vocabulary="Parameterklasse">Niederschlag</Keyword>
+                  <Keyword vocabulary="Geographische Region">Deutschland</Keyword>
+                  <Keyword vocabulary="European Petroleum Survey Group (EPSG) Geodetic Parameter Registry">4258</Keyword>
+                  <Keyword vocabulary="Parameter">Niederschlagshohe</Keyword>
+                  <Keyword vocabulary="Metadata Maintenance">CDC/Revision</Keyword>
+                  <Keyword vocabulary="Vertikale Auflosung">bodennahe Atmosphare</Keyword>
+                  <Keyword vocabulary="Geoserver Dimension Zeit -Auflosung">1 Stunde</Keyword>
+                  <Keyword vocabulary="Statistische Bearbeitung">Zeitreihe</Keyword>
+                  <Keyword vocabulary="GEMET - INSPIRE Themen, version 1.0">Atmospharische Bedingungen</Keyword>
+                  <Keyword vocabulary="Zeitliche Auflosung">stundlich</Keyword>
+                  <Keyword vocabulary="Einheit">mm</Keyword>
+                  <Keyword vocabulary="Copyright">CDC/Nutzungsbedingungen</Keyword>
+                  <Keyword vocabulary="OpenGIS CRS Authorities">EPSG</Keyword>
+                  <Keyword vocabulary="Statistische Bearbeitung">Stundensumme </Keyword>
+                  <Keyword vocabulary="GEMET - INSPIRE Themen, version 1.0">Meteorologisch-geografische Kennwerte</Keyword>
+                  <Keyword vocabulary="User Styled Layer Descriptors v1.0.0">rr_sum_pt1-24h_ptz</Keyword>
+                  <Keyword vocabulary="Datenherkunft">Stationsdaten</Keyword>
+                  <Keyword vocabulary="Aktualisierungsfrequenz">taeglich</Keyword>
+                </KeywordList>
+                <CRS>EPSG:4326</CRS>
+                <CRS>CRS:84</CRS>
+                <EX_GeographicBoundingBox>
+                  <westBoundLongitude>5.8453</westBoundLongitude>
+                  <eastBoundLongitude>15.9202</eastBoundLongitude>
+                  <southBoundLatitude>47.3986</southBoundLatitude>
+                  <northBoundLatitude>55.011</northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <BoundingBox CRS="CRS:84" minx="5.8453" miny="47.3986" maxx="15.9202" maxy="55.011"/>
+                <BoundingBox CRS="EPSG:4326" minx="47.3986" miny="5.8453" maxx="55.011" maxy="15.9202"/>
+                <Dimension name="time" default="2018-03-02T08:00:00Z" units="ISO8601">1995-09-01T00:00:00.000Z/2018-03-02T08:00:00.000Z/PT1H</Dimension>
+                <MetadataURL type="19139">
+                  <Format>text/plain</Format>
+                  <OnlineResource xlink:type="simple" xlink:href="https://cdc.dwd.de/sdi/pid/R1_MN008/ISO_R1_MN008.xml"/>
+                </MetadataURL>
+                <Style>
+                  <Name>rr_sum_pt1-24h_ptz</Name>
+                  <Title>Total precipitation</Title>
+                  <Abstract>Multicolor gradient for 1h-total precipitation in l/m2</Abstract>
+                  <LegendURL width="67" height="100">
+                    <Format>image/png</Format>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/CDC/VGSL_R1_MN008/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=VGSL_R1_MN008"/>
+                  </LegendURL>
+                </Style>
+                <Style>
+                  <Name>rr_sum_pt1-24h_ptz</Name>
+                  <Title>Total precipitation</Title>
+                  <Abstract>Multicolor gradient for 1h-total precipitation in l/m2</Abstract>
+                  <LegendURL width="67" height="100">
+                    <Format>image/png</Format>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://cdc.dwd.de:443/geoserver/CDC/VGSL_R1_MN008/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=VGSL_R1_MN008&amp;style=rr_sum_pt1-24h_ptz"/>
+                  </LegendURL>
+                </Style>
+                <MaxScaleDenominator>5.0E7</MaxScaleDenominator>
+              </Layer>
+            </Layer>
+          </Layer>
+        </Layer>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

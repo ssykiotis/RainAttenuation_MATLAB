@@ -1,0 +1,2 @@
+Stations_id; Stationshoehe; Geogr.Breite; Geogr.Laenge; von_datum; bis_datum; Stationsname;
+433;48.0;52.4675;13.4021;19470101;;Berlin-Tempelhof
