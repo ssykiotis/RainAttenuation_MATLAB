@@ -1,3 +1,4 @@
+% Simulation Script for RainAttenuationGenerator Model
 clear
 close all
 clc
@@ -16,10 +17,10 @@ P_0 = P_0/100;                                              %%Normalize probabil
 
 R_01_perMonth = rain_values(control,c_region);
 
-R_01_events = rainfall_events(control,R_01_perMonth);       %%split real-world data into rain events
+R_01_events = rainfall_events(control,R_01_perMonth);        %%split real-world data into rain events
 % [R_event_dur,R_event_stats]=event_duration(R_01_events);   %%OPTIONAL: Statistics for rain events
 
-R_minute = rain_simulation(control,R_01_events,P_0);        %%Rainrate Generator for every minute of the year
+R_minute = rain_simulation(control,R_01_events,P_0);         %%Rainrate Generator for every minute of the year
 
  rain_att = rain_attenuation(control,R_minute);              %%Attenuation due to rain
 %%

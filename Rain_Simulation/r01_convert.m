@@ -5,7 +5,7 @@ function [ R_01 ] = r01_convert( data)
 % INPUT:  8760x11 data: hourly Rainrate values
 %         
 % 
-% OUTPUT: 8760x11 R_01: minute-wise Rainrate values  
+% OUTPUT: 8760x11 R_01:  Rainrate values on a 1-minute time scale
 %         
 %        
 %%             

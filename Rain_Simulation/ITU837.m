@@ -1,6 +1,7 @@
 function [ t,MT,P_0,r] = ITU837( control )
-%This function calculates some useful statistics for a given map location.
-
+%This function calculates useful climatic statistics for a given map 
+%location.
+%
 % INPUT:  1x1 :control.locLat, Latitude of the desired location
 %         1x1 :control.locLon  Longitude of the desired location
 % 

@@ -1,5 +1,9 @@
 function [ control ] = control_settings(  )
-% This function sets control parameters for the simulation.
+% In this function, the control parameters for the simulation are set.
+%The geographical coordinates (latitude,longitude) for some exemplary 
+%locations are provided.
+
+
 
 % Input:  None
 % Output: 1x1 struct
@@ -17,12 +21,12 @@ function [ control ] = control_settings(  )
 % control.locLon = -112.07404;
 
 %Berlin
-% control.locLat = 52.5200;                                 %%Longitude and latitude of location
-% control.locLon = 13.4050;
-% 
+control.locLat = 52.5200;                                 
+control.locLon = 13.4050;
+ 
 % Moscow
-control.locLat = 55.755825;
-control.locLon = 37.617298;
+% control.locLat = 55.755825;
+% control.locLon = 37.617298;
 
 %Greenland
 %control.locLat = 71.706940;

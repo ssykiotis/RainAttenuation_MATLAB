@@ -158,3 +158,19 @@ comp(13,1) =   mean(SNR_reshaped);
 comp(13,2) =   mean(SNR_rec);
 comp(13,3) =   var (SNR_reshaped);
 comp(13,4) =   var (SNR_rec);
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+figure(11);
+x = csvread('ns3data.csv');
+d = x(:,1);
+att = x(:,2);
+plot(d,att,'LineWidth',1.5);
+grid on;
+ylabel('Rain Attenuation [dB]');
+xlabel('Distance [m]');
+title('Rain Attenuation over distance, Ns-3 simulation');
+% title('Reconstructed SNR values,July');
+grid on;
+set(gca,'FontSize',12);
+xlim([1 1000]);

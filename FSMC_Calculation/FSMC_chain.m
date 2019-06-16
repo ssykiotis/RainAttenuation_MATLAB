@@ -6,7 +6,7 @@ function [ FSMC ] = FSMC_chain( control, SNR,nr_states)
 % INPUT:  m x 1     SNR: vector containing the SNR values
 %         1 x 1     nr_states: number of states of the Markov Chain
 
-% OUTPUT:  m x 1   states: FSMC state of the channel    
+% OUTPUT:  1 x 1   FSMC : FSMC object containing all essential FSMC info.    
 %%
 FSMC = {};
 

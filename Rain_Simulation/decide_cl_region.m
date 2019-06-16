@@ -1,7 +1,13 @@
 function [ c_region ] = decide_cl_region(control)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
-
+% This function evaluateses the coordinates of the desired location and 
+% determines the location's climatic region according to the Koeppen-Geiger
+% Climatic Classification maps. Only the main climatic region is returned.
+% 
+% INPUT: 1 x 1 struct control: struct containing the control settings of the
+%                               simulation
+% OUTPUT: 1 x 1 char c_region: indicator that corresponds to one of the 5 main 
+%                              climatic regions                             
+%%
 lon = control.locLon;
 lat = control.locLat;
 

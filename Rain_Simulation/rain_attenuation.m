@@ -1,12 +1,12 @@
 function [ rain_att ] = rain_attenuation( control,rainrate_minute )
 %This function computes the attenuation (in dB) caused by rain over a path
-%length for every minute of the year.
+%length for every minute of the year according to standard ITU-R P.530-17.
 %
 % INPUT: 8760x60 rainrate_minute: rainrate values per minute
 % 
-% OUTPUT: 8760x60 rain att: rain attenuation per minute
-%                           Rows: hours of the year
-%                           Columns: minutes
+% OUTPUT: 8760x60 rain att      : rain attenuation per minute
+%                                 Rows: hours of the year
+%                                 Columns: minutes
 %%
 m=size(rainrate_minute,1);
 n=size(rainrate_minute,2);
@@ -26,18 +26,39 @@ for i=1:size(rain_att,1)
         gamma = k*rr^alpha;
         r = effplfactor(d,rr,f,alpha);
         rain_att(i,j) = gamma*r*d;
-%         rain_att(i,j) = rainpl(d,f,rainrate_minute(i,j));
     end
 end 
 end
 function r = effplfactor(d,rr,f,a)
+% This function returns the distance factor r according to standard 
+% ITU-R P.530-17.
+% 
+% INPUT:    1 x 1 d: link distance  [km]
+%           1 x 1 rr: rain intensity [mm/hr]
+%           1 x 1 f : frequency [GHz]
+%           1 x 1 a : specific attenuation constant according to stanard 
+%                     ITU-R P.838-3
+%        
+% OUTPUT:   1 x 1 r : distance factor r
+%%
     term1 = 0.477*d^0.633*rr^(0.073*a)*f^0.123;
     term2 = 10.579*(1-exp(-0.024*d));
       r   = 1/(term1-term2);
+      
 end
 
 function [kH,kV,alphaH,alphaV] = rainattcoeff(f)
-
+% This function returns the specific attenuation constans
+% kH,kV,alphaH,alphaV according to standard ITU-R P.838-3.
+% 
+% INPUT:    1 x 1 d: link distance  [km]
+%           1 x 1 rr: rain intensity [mm/hr]
+%           1 x 1 f : frequency [GHz]
+%           1 x 1 a : specific attenuation constant according to stanard 
+%                     ITU-R P.838-3
+%        
+% OUTPUT:   1 x 1 r : distance factor r
+%%
 kHtab = [-5.33980 -0.10008 1.13098; ...
          -0.35351 1.26970 0.45400; ...
          -0.23789 0.86036 0.15354; ...

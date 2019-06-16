@@ -1,7 +1,7 @@
 function [ y ] = custom_reshape( x )
-%This function takes a matrix as input and reshapes to a vector per row. 
+%This function takes a matrix as input and reshapes to a vector. 
 
-% INPUT:  m x n   x:    any matrix of dimensions m,n
+% INPUT:  m x n     x: any matrix of dimensions m,n
 %
 % OUTPUT:  m*n x 1  y: reshaped vector
 %                  

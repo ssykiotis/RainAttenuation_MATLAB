@@ -60,11 +60,3 @@ for i=1:size(R_minute,1)
     end
 end
 end
-
-% i =0;
-% i=i+control.monthhours(j);
-% p_raining_m = zeros(i,1);
-% for k =1:i
-%     p_raining_m(k) =randsrc(1,1,[1,0;P_0(j),1-P_0(j)]);
-% end
-% raining_hourly = cat(1,raining_hourly,p_raining_m);

@@ -1,7 +1,17 @@
 function [ R_res ] = AttToRainInt( P_ideal,P_rainy,f,d,el,tau )
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%This function calculates the Rain intensity value that corresponds to a
+%certain rain attenuation value.
 
+% INPUT:  1x1    P_ideal: Path attenuation under ideal weather conditions.
+%         1x1    P_rainy: Path attenuation during a rain event. 
+%         1x1    f:       Frequency [GHz]
+%         1x1    d:       link distance [km]
+%         1x1    el:      elevation path angle (default 0)
+%         1x1    tau:     polarization tilt angle (default 0)
+% 
+%
+% OUTPUT:  1x1 R_res: Rain intensity value [mm/hr]
+%%
 if (nargin==4)
     el=0;
     tau=0;

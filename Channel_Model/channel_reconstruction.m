@@ -59,11 +59,12 @@ end
 
 
 function [SNR_rec] = rec_monthly(control,FSMC)
+
  total_chain_length = cumsum(control.monthhours)*60;
  total_chain_length = total_chain_length(length(control.monthhours));
  counter =1;
-SNR_rec=zeros(total_chain_length,1);
-for month=1:12
+ SNR_rec=zeros(total_chain_length,1);
+ for month=1:12
     chain_length = control.monthhours(month)*60;
     SNR_rec_month = zeros(chain_length,1);
     FSMC_m = FSMC{month};

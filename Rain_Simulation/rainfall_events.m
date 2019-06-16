@@ -2,7 +2,8 @@ function [ R_01_events ] = rainfall_events( control,R_01_perMonth )
 %This function takes the monthly real-world values of rainrate and splits
 %them into rain events. As a rain event we define a series of at least 1
 %non-zero rain values.
-% INPUT: {1 x 12} R_01: R_01_perMonth cell array with rain values per month
+% INPUT: {1 x 12} R_01         : R_01_perMonth cell array with rain 
+%                                values per month
 % 
 % OUTPUT: {1 x 12} R_01_events: cell array containing the rain events per
 %                               month 

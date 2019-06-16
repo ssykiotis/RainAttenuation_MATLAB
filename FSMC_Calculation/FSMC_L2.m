@@ -1,8 +1,8 @@
 function [ FSMC_L2 ] = FSMC_L2( control, SNR )
 
 %This function creates an object containing all the information required
-%to describe a Markov chain per month. The Markov chain captures the behaviour of the
-%passed in SNR values
+%to describe a Markov chain per month. The Markov chain captures the 
+%behaviour of the passed in SNR values.
 
 % INPUT:  m x 1     SNR: vector containing the SNR values       
 
